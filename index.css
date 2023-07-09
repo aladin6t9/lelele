@@ -90,7 +90,7 @@ max-width: 1000px
 main{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    
 }
 .abot-info-conatin{
     display: flex;
@@ -101,11 +101,65 @@ main{
 
 }
 /* about section */
+main section{
+    margin: 130px;
+}
 .about{
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 130px 0px;
 }
+.section-about{
+    background-color: antiquewhite;
+}
+.info-title{
+    text-align: center;
+}
+#what-i-do{
+    margin: 100px;
+    padding: 30px 150px;
+    
+}
+/*what i do related style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    box-shadow: 0px 6px 50px 0px;color: black;
+}
+.resume-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 
+}
+.resume-container{
+    display: flex;
+}
+.sozin-ml{
+    display: flex;
+}
+.resume-container{
+    display: flex;
+}
+.section-title{
+    display: flex;
+}
 
+.sozin-ml{ 
+text-align:  center;
+        }
+        footer{
+            display: flex;
+        }
+        footer{
+            display: flex;
+            background-color: #FD6E0A;
+            margin-top: 100px;
+            padding: 130px 230px;
+        }
