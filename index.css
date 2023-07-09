@@ -158,8 +158,19 @@ text-align:  center;
             display: flex;
         }
         footer{
+            gap: 100px
+            ;
             display: flex;
-            background-color: #FD6E0A;
+            background-color:gray;
             margin-top: 100px;
             padding: 130px 230px;
+        }
+        .footer-column{
+            width: 50%;
+            margin-bottom: 25px;
+        }
+        .contact input,{
+            display: block;
+            margin-bottom: 50px;
+
         }
